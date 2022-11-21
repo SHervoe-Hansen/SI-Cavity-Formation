@@ -30,7 +30,7 @@ When conducting molecular dynamics there are a ton of factors one can choose wit
 **Length of simulation**: Preliminary run for pure water (10 ns), salt + water (100 ns). Run longer if the primary observables (slvfe, rdfs, etc.) 
 **Force fields**: Water - OPC, Ions: Li & Merz parameters.  
 **Electrostatic interactions**: PME 4th-6th order B-spline with an Ewald tolerance ~5e-4.  
-**Lennard Jones interactions**: LJPME shifting functions, (you may follow the ermod tutorial).  
+**Lennard Jones interactions**: LJPME, usage of shifting functions, or you may follow the ermod tutorial.  
 **Hydrophobic solute**: We can look either at gases or hydrocarbons. We will choose this later!  
 
 ### License
