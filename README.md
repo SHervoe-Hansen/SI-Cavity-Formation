@@ -19,7 +19,7 @@ Regarding software, Stefan is mainly working with OpenMM due to the flexibility 
 For the storage of data such as inputs, topology files, and other files which are not super large in size (such as trajectory files) I recommend we use Github. This allows easy collaboration between you and Stefan. For an introduction to Git and Github Stefan is more than happy to help.
 
 ### Details regarding molecular dynamics
-When conducting molecular dynamics there are a ton of factors one can choose with examples including choice of force field, ensemble, barostat, thermostat, system, etc. My personal opinion is that one must conduct molecular dynamics with the goal to _attempt_ to choose the optimal conditions for the purpose of the simulations. Consequently you are free to choose whichever parameters you think are well suited for the study. Below I will give my recommendations, however I encourage you to choose differently if you believe it is better:
+When conducting molecular dynamics there are a ton of factors one can choose with examples including choice of force field, ensemble, barostat, thermostat, system, etc. My personal opinion is that one must conduct molecular dynamics with the goal to _attempt_ to choose the optimal conditions for the purpose of the simulations. Consequently you are free to choose whichever parameters you think are well suited for the study. Below I will give my recommendations, however I encourage you to choose differently if you believe it is better.
 
 #### Stefan's MD recommendation:
 **Ensemble**: Isothermal-Isobaric (NPT) ensemble.
