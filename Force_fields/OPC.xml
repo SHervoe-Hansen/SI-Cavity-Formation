@@ -1,0 +1,335 @@
+<ForceField>
+  <Info>
+    <DateGenerated>2022-11-09</DateGenerated>
+    <Reference>Li, P., Roberts, B.P., Chakravorty, D.K., and Merz, K.M. (2013). Rational Design of Particle Mesh Ewald Compatible Lennard-Jones Parameters for +2 Metal Cations in Explicit Solvent. J. Chem. Theory Comput. 9, 2733-2748.</Reference>
+    <Reference>Izadi, S., Anandakrishnan R., and Onufriev, A.V. (2014). Building Water Models: A Different Approach. J. Phys. Chem. Lett. 5, 3863–3871.</Reference>
+  </Info>
+  <AtomTypes>
+    <Type element="Li" name="opc_standard-Li+" class="opc_standard-Li+" mass="6.94"/>
+    <Type element="Na" name="opc_standard-Na+" class="opc_standard-Na+" mass="22.99"/>
+    <Type element="K" name="opc_standard-K+" class="opc_standard-K+" mass="39.1"/>
+    <Type element="Rb" name="opc_standard-Rb+" class="opc_standard-Rb+" mass="85.47"/>
+    <Type element="Cs" name="opc_standard-Cs+" class="opc_standard-Cs+" mass="132.91"/>
+    <Type element="Tl" name="opc_standard-Tl+" class="opc_standard-Tl+" mass="204.38"/>
+    <Type element="Cu" name="opc_standard-Cu+" class="opc_standard-Cu+" mass="63.55"/>
+    <Type element="Ag" name="opc_standard-Ag+" class="opc_standard-Ag+" mass="107.87"/>
+    <Type element="F" name="opc_standard-F-" class="opc_standard-F-" mass="19.0"/>
+    <Type element="Cl" name="opc_standard-Cl-" class="opc_standard-Cl-" mass="35.45"/>
+    <Type element="Br" name="opc_standard-Br-" class="opc_standard-Br-" mass="79.9"/>
+    <Type element="I" name="opc_standard-I-" class="opc_standard-I-" mass="126.9"/>
+    <Type element="Be" name="opc_standard-Be2+" class="opc_standard-Be2+" mass="9.01"/>
+    <Type element="Cu" name="opc_standard-Cu2+" class="opc_standard-Cu2+" mass="63.55"/>
+    <Type element="Ni" name="opc_standard-Ni2+" class="opc_standard-Ni2+" mass="58.69"/>
+    <Type element="Pt" name="opc_standard-Pt2+" class="opc_standard-Pt2+" mass="195.08"/>
+    <Type element="Zn" name="opc_standard-Zn2+" class="opc_standard-Zn2+" mass="65.4"/>
+    <Type element="Co" name="opc_standard-Co2+" class="opc_standard-Co2+" mass="58.93"/>
+    <Type element="Pd" name="opc_standard-Pd2+" class="opc_standard-Pd2+" mass="106.42"/>
+    <Type element="Ag" name="opc_standard-Ag2+" class="opc_standard-Ag2+" mass="107.87"/>
+    <Type element="Cr" name="opc_standard-Cr2+" class="opc_standard-Cr2+" mass="52.0"/>
+    <Type element="Fe" name="opc_standard-Fe2+" class="opc_standard-Fe2+" mass="55.85"/>
+    <Type element="Mg" name="opc_standard-Mg2+" class="opc_standard-Mg2+" mass="24.305"/>
+    <Type element="V" name="opc_standard-V2+" class="opc_standard-V2+" mass="50.94"/>
+    <Type element="Mn" name="opc_standard-Mn2+" class="opc_standard-Mn2+" mass="54.94"/>
+    <Type element="Hg" name="opc_standard-Hg2+" class="opc_standard-Hg2+" mass="200.59"/>
+    <Type element="Cd" name="opc_standard-Cd2+" class="opc_standard-Cd2+" mass="112.41"/>
+    <Type element="Yb" name="opc_standard-Yb2+" class="opc_standard-Yb2+" mass="173.05"/>
+    <Type element="Ca" name="opc_standard-Ca2+" class="opc_standard-Ca2+" mass="40.08"/>
+    <Type element="Sn" name="opc_standard-Sn2+" class="opc_standard-Sn2+" mass="118.71"/>
+    <Type element="Pb" name="opc_standard-Pb2+" class="opc_standard-Pb2+" mass="207.2"/>
+    <Type element="Eu" name="opc_standard-Eu2+" class="opc_standard-Eu2+" mass="151.96"/>
+    <Type element="Sr" name="opc_standard-Sr2+" class="opc_standard-Sr2+" mass="87.62"/>
+    <Type element="Sm" name="opc_standard-Sm2+" class="opc_standard-Sm2+" mass="150.36"/>
+    <Type element="Ba" name="opc_standard-Ba2+" class="opc_standard-Ba2+" mass="137.33"/>
+    <Type element="Ra" name="opc_standard-Ra2+" class="opc_standard-Ra2+" mass="226.03"/>
+    <Type element="Al" name="opc_standard-Al3+" class="opc_standard-Al3+" mass="26.98"/>
+    <Type element="Fe" name="opc_standard-Fe3+" class="opc_standard-Fe3+" mass="55.85"/>
+    <Type element="Cr" name="opc_standard-Cr3+" class="opc_standard-Cr3+" mass="52.0"/>
+    <Type element="In" name="opc_standard-In3+" class="opc_standard-In3+" mass="114.82"/>
+    <Type element="Tl" name="opc_standard-Tl3+" class="opc_standard-Tl3+" mass="204.38"/>
+    <Type element="Y" name="opc_standard-Y3+" class="opc_standard-Y3+" mass="88.91"/>
+    <Type element="La" name="opc_standard-La3+" class="opc_standard-La3+" mass="138.91"/>
+    <Type element="Ce" name="opc_standard-Ce3+" class="opc_standard-Ce3+" mass="140.12"/>
+    <Type element="Pr" name="opc_standard-Pr3+" class="opc_standard-Pr3+" mass="140.91"/>
+    <Type element="Nd" name="opc_standard-Nd3+" class="opc_standard-Nd3+" mass="144.24"/>
+    <Type element="Sm" name="opc_standard-Sm3+" class="opc_standard-Sm3+" mass="150.36"/>
+    <Type element="Eu" name="opc_standard-Eu3+" class="opc_standard-Eu3+" mass="151.96"/>
+    <Type element="Gd" name="opc_standard-Gd3+" class="opc_standard-Gd3+" mass="157.25"/>
+    <Type element="Tb" name="opc_standard-Tb3+" class="opc_standard-Tb3+" mass="158.93"/>
+    <Type element="Dy" name="opc_standard-Dy3+" class="opc_standard-Dy3+" mass="162.5"/>
+    <Type element="Er" name="opc_standard-Er3+" class="opc_standard-Er3+" mass="167.26"/>
+    <Type element="Tm" name="opc_standard-Tm3+" class="opc_standard-Tm3+" mass="168.93"/>
+    <Type element="Lu" name="opc_standard-Lu3+" class="opc_standard-Lu3+" mass="174.97"/>
+    <Type element="Hf" name="opc_standard-Hf4+" class="opc_standard-Hf4+" mass="178.49"/>
+    <Type element="Zr" name="opc_standard-Zr4+" class="opc_standard-Zr4+" mass="91.22"/>
+    <Type element="Ce" name="opc_standard-Ce4+" class="opc_standard-Ce4+" mass="140.12"/>
+    <Type element="U" name="opc_standard-U4+" class="opc_standard-U4+" mass="238.03"/>
+    <Type element="Pu" name="opc_standard-Pu4+" class="opc_standard-Pu4+" mass="244.06"/>
+    <Type element="Th" name="opc_standard-Th4+" class="opc_standard-Th4+" mass="232.04"/>
+    <Type name="opc-O" class="opc-O" element="O" mass="15.99943"/>
+    <Type name="opc-H" class="opc-H" element="H" mass="1.007947"/>
+    <Type name="opc-M" class="opc-M" mass="0"/>
+  </AtomTypes>
+  <Residues>
+    <Residue name="AG">
+      <Atom name="AG" type="opc_standard-Ag+" charge="1.0"/>
+    </Residue>
+    <Residue name="AL">
+      <Atom name="AL" type="opc_standard-Al3+" charge="3.0"/>
+    </Residue>
+    <Residue name="Ag">
+      <Atom name="Ag" type="opc_standard-Ag2+" charge="2.0"/>
+    </Residue>
+    <Residue name="BA">
+      <Atom name="BA" type="opc_standard-Ba2+" charge="2.0"/>
+    </Residue>
+    <Residue name="BR">
+      <Atom name="BR" type="opc_standard-Br-" charge="-1.0"/>
+    </Residue>
+    <Residue name="Be">
+      <Atom name="Be" type="opc_standard-Be2+" charge="2.0"/>
+    </Residue>
+    <Residue name="CA">
+      <Atom name="CA" type="opc_standard-Ca2+" charge="2.0"/>
+    </Residue>
+    <Residue name="CD">
+      <Atom name="CD" type="opc_standard-Cd2+" charge="2.0"/>
+    </Residue>
+    <Residue name="CE">
+      <Atom name="CE" type="opc_standard-Ce3+" charge="3.0"/>
+    </Residue>
+    <Residue name="CL">
+      <Atom name="CL" type="opc_standard-Cl-" charge="-1.0"/>
+    </Residue>
+    <Residue name="CO">
+      <Atom name="CO" type="opc_standard-Co2+" charge="2.0"/>
+    </Residue>
+    <Residue name="CR">
+      <Atom name="CR" type="opc_standard-Cr3+" charge="3.0"/>
+    </Residue>
+    <Residue name="CS">
+      <Atom name="CS" type="opc_standard-Cs+" charge="1.0"/>
+    </Residue>
+    <Residue name="CU">
+      <Atom name="CU" type="opc_standard-Cu2+" charge="2.0"/>
+    </Residue>
+    <Residue name="CU1">
+      <Atom name="CU" type="opc_standard-Cu+" charge="1.0"/>
+    </Residue>
+    <Residue name="Ce">
+      <Atom name="Ce" type="opc_standard-Ce4+" charge="4.0"/>
+    </Residue>
+    <Residue name="Cr">
+      <Atom name="Cr" type="opc_standard-Cr2+" charge="2.0"/>
+    </Residue>
+    <Residue name="Dy">
+      <Atom name="Dy" type="opc_standard-Dy3+" charge="3.0"/>
+    </Residue>
+    <Residue name="EU">
+      <Atom name="EU" type="opc_standard-Eu2+" charge="2.0"/>
+    </Residue>
+    <Residue name="EU3">
+      <Atom name="EU3" type="opc_standard-Eu3+" charge="3.0"/>
+    </Residue>
+    <Residue name="Er">
+      <Atom name="Er" type="opc_standard-Er3+" charge="3.0"/>
+    </Residue>
+    <Residue name="F">
+      <Atom name="F" type="opc_standard-F-" charge="-1.0"/>
+    </Residue>
+    <Residue name="FE">
+      <Atom name="FE" type="opc_standard-Fe3+" charge="3.0"/>
+    </Residue>
+    <Residue name="FE2">
+      <Atom name="FE2" type="opc_standard-Fe2+" charge="2.0"/>
+    </Residue>
+    <Residue name="GD3">
+      <Atom name="GD" type="opc_standard-Gd3+" charge="3.0"/>
+    </Residue>
+    <Residue name="HG">
+      <Atom name="HG" type="opc_standard-Hg2+" charge="2.0"/>
+    </Residue>
+    <Residue name="Hf">
+      <Atom name="Hf" type="opc_standard-Hf4+" charge="4.0"/>
+    </Residue>
+    <Residue name="IN">
+      <Atom name="IN" type="opc_standard-In3+" charge="3.0"/>
+    </Residue>
+    <Residue name="IOD">
+      <Atom name="I" type="opc_standard-I-" charge="-1.0"/>
+    </Residue>
+    <Residue name="K">
+      <Atom name="K" type="opc_standard-K+" charge="1.0"/>
+    </Residue>
+    <Residue name="LA">
+      <Atom name="LA" type="opc_standard-La3+" charge="3.0"/>
+    </Residue>
+    <Residue name="LI">
+      <Atom name="LI" type="opc_standard-Li+" charge="1.0"/>
+    </Residue>
+    <Residue name="LU">
+      <Atom name="LU" type="opc_standard-Lu3+" charge="3.0"/>
+    </Residue>
+    <Residue name="MG">
+      <Atom name="MG" type="opc_standard-Mg2+" charge="2.0"/>
+    </Residue>
+    <Residue name="MN">
+      <Atom name="MN" type="opc_standard-Mn2+" charge="2.0"/>
+    </Residue>
+    <Residue name="NA">
+      <Atom name="NA" type="opc_standard-Na+" charge="1.0"/>
+    </Residue>
+    <Residue name="NI">
+      <Atom name="NI" type="opc_standard-Ni2+" charge="2.0"/>
+    </Residue>
+    <Residue name="Nd">
+      <Atom name="Nd" type="opc_standard-Nd3+" charge="3.0"/>
+    </Residue>
+    <Residue name="PB">
+      <Atom name="PB" type="opc_standard-Pb2+" charge="2.0"/>
+    </Residue>
+    <Residue name="PD">
+      <Atom name="PD" type="opc_standard-Pd2+" charge="2.0"/>
+    </Residue>
+    <Residue name="PR">
+      <Atom name="PR" type="opc_standard-Pr3+" charge="3.0"/>
+    </Residue>
+    <Residue name="PT">
+      <Atom name="PT" type="opc_standard-Pt2+" charge="2.0"/>
+    </Residue>
+    <Residue name="Pu">
+      <Atom name="Pu" type="opc_standard-Pu4+" charge="4.0"/>
+    </Residue>
+    <Residue name="RB">
+      <Atom name="RB" type="opc_standard-Rb+" charge="1.0"/>
+    </Residue>
+    <Residue name="Ra">
+      <Atom name="Ra" type="opc_standard-Ra2+" charge="2.0"/>
+    </Residue>
+    <Residue name="SM">
+      <Atom name="SM" type="opc_standard-Sm3+" charge="3.0"/>
+    </Residue>
+    <Residue name="SR">
+      <Atom name="SR" type="opc_standard-Sr2+" charge="2.0"/>
+    </Residue>
+    <Residue name="Sm">
+      <Atom name="Sm" type="opc_standard-Sm2+" charge="2.0"/>
+    </Residue>
+    <Residue name="Sn">
+      <Atom name="Sn" type="opc_standard-Sn2+" charge="2.0"/>
+    </Residue>
+    <Residue name="TB">
+      <Atom name="TB" type="opc_standard-Tb3+" charge="3.0"/>
+    </Residue>
+    <Residue name="TL">
+      <Atom name="TL" type="opc_standard-Tl+" charge="1.0"/>
+    </Residue>
+    <Residue name="Th">
+      <Atom name="Th" type="opc_standard-Th4+" charge="4.0"/>
+    </Residue>
+    <Residue name="Tl">
+      <Atom name="Tl" type="opc_standard-Tl3+" charge="3.0"/>
+    </Residue>
+    <Residue name="Tm">
+      <Atom name="Tm" type="opc_standard-Tm3+" charge="3.0"/>
+    </Residue>
+    <Residue name="U4+">
+      <Atom name="U" type="opc_standard-U4+" charge="4.0"/>
+    </Residue>
+    <Residue name="V2+">
+      <Atom name="V2+" type="opc_standard-V2+" charge="2.0"/>
+    </Residue>
+    <Residue name="Y">
+      <Atom name="Y" type="opc_standard-Y3+" charge="3.0"/>
+    </Residue>
+    <Residue name="YB2">
+      <Atom name="YB2" type="opc_standard-Yb2+" charge="2.0"/>
+    </Residue>
+    <Residue name="ZN">
+      <Atom name="ZN" type="opc_standard-Zn2+" charge="2.0"/>
+    </Residue>
+    <Residue name="Zr">
+      <Atom name="Zr" type="opc_standard-Zr4+" charge="4.0"/>
+    </Residue>
+    <Residue name="HOH">
+      <Atom name="O" type="opc-O" charge="0"/>
+      <Atom name="H1" type="opc-H" charge="0.679142"/>
+      <Atom name="H2" type="opc-H" charge="0.679142"/>
+      <Atom name="M" type="opc-M" charge="-1.358284"/>
+      <VirtualSite type="average3" siteName="M" atomName1="O" atomName2="H1" atomName3="H2" weight1="0.70455878106" weight2="0.14772060947" weight3="0.14772060947"/>
+      <Bond atomName1="O" atomName2="H1"/>
+      <Bond atomName1="O" atomName2="H2"/>
+    </Residue>
+  </Residues>
+  <HarmonicBondForce>
+    <Bond type1="opc-O" type2="opc-H" length="0.087243313" k="462750.4"/>
+  </HarmonicBondForce>
+  <HarmonicAngleForce>
+    <Angle type1="opc-H" type2="opc-O" type3="opc-H" angle="1.80816110507" k="836.8"/>
+  </HarmonicAngleForce>
+  <NonbondedForce coulomb14scale="0.8333333333333334" lj14scale="0.5">
+    <UseAttributeFromResidue name="charge"/>
+    <Atom type="opc_standard-Li+" sigma="0.2212992415860603" epsilon="0.009039866720000001"/>
+    <Atom type="opc_standard-Na+" sigma="0.26138968390237555" epsilon="0.12386075112"/>
+    <Atom type="opc_standard-K+" sigma="0.3032619236549715" epsilon="0.58382766144"/>
+    <Atom type="opc_standard-Rb+" sigma="0.3239307739158274" epsilon="0.9537620464000001"/>
+    <Atom type="opc_standard-Cs+" sigma="0.349232297511013" epsilon="1.47731805816"/>
+    <Atom type="opc_standard-Tl+" sigma="0.29577837442259264" epsilon="0.47070573208000005"/>
+    <Atom type="opc_standard-Cu+" sigma="0.21025209748112006" epsilon="0.0032724319200000004"/>
+    <Atom type="opc_standard-Ag+" sigma="0.23448454261453733" epsilon="0.025210566480000002"/>
+    <Atom type="opc_standard-F-" sigma="0.3278507282756449" epsilon="1.0313754556"/>
+    <Atom type="opc_standard-Cl-" sigma="0.4205041949622401" epsilon="2.8400519208"/>
+    <Atom type="opc_standard-Br-" sigma="0.4452711793265416" epsilon="3.17863094952"/>
+    <Atom type="opc_standard-I-" sigma="0.5167212565213968" epsilon="3.77817463544"/>
+    <Atom type="opc_standard-Be2+" sigma="0.16410354388145051" epsilon="5.35552e-06"/>
+    <Atom type="opc_standard-Cu2+" sigma="0.20989573799386393" epsilon="0.0031585016"/>
+    <Atom type="opc_standard-Ni2+" sigma="0.21328115312279727" epsilon="0.00439211216"/>
+    <Atom type="opc_standard-Pt2+" sigma="0.21720110748261476" epsilon="0.00631378152"/>
+    <Atom type="opc_standard-Zn2+" sigma="0.21720110748261476" epsilon="0.00631378152"/>
+    <Atom type="opc_standard-Co2+" sigma="0.2250410162022497" epsilon="0.012329536720000001"/>
+    <Atom type="opc_standard-Pd2+" sigma="0.2261100946640181" epsilon="0.013433485120000001"/>
+    <Atom type="opc_standard-Ag2+" sigma="0.23252456543462854" epsilon="0.0218984284"/>
+    <Atom type="opc_standard-Cr2+" sigma="0.23448454261453733" epsilon="0.025210566480000002"/>
+    <Atom type="opc_standard-Fe2+" sigma="0.23573180081993375" epsilon="0.027520218160000002"/>
+    <Atom type="opc_standard-Mg2+" sigma="0.23697905902533029" epsilon="0.0299963512"/>
+    <Atom type="opc_standard-V2+" sigma="0.23769177799984254" epsilon="0.03148911872"/>
+    <Atom type="opc_standard-Mn2+" sigma="0.2460662259503617" epsilon="0.053825486400000004"/>
+    <Atom type="opc_standard-Hg2+" sigma="0.2460662259503617" epsilon="0.053825486400000004"/>
+    <Atom type="opc_standard-Cd2+" sigma="0.24749166389938626" epsilon="0.05861307024"/>
+    <Atom type="opc_standard-Yb2+" sigma="0.2854439492921647" epsilon="0.33615222504000003"/>
+    <Atom type="opc_standard-Ca2+" sigma="0.2865130277539331" epsilon="0.34886028824000004"/>
+    <Atom type="opc_standard-Sn2+" sigma="0.2895420833956103" epsilon="0.38639884336"/>
+    <Atom type="opc_standard-Pb2+" sigma="0.30415282237311186" epsilon="0.59811815528"/>
+    <Atom type="opc_standard-Eu2+" sigma="0.31234909058000293" epsilon="0.73715046696"/>
+    <Atom type="opc_standard-Sr2+" sigma="0.31466542724716784" epsilon="0.77874118424"/>
+    <Atom type="opc_standard-Sm2+" sigma="0.31466542724716784" epsilon="0.77874118424"/>
+    <Atom type="opc_standard-Ba2+" sigma="0.349232297511013" epsilon="1.47731805816"/>
+    <Atom type="opc_standard-Ra2+" sigma="0.349232297511013" epsilon="1.47731805816"/>
+    <Atom type="opc_standard-Al3+" sigma="0.22272467953508485" epsilon="0.010193772080000002"/>
+    <Atom type="opc_standard-Fe3+" sigma="0.249451641079295" epsilon="0.06572013816000001"/>
+    <Atom type="opc_standard-Cr3+" sigma="0.2380481374870987" epsilon="0.032257342960000004"/>
+    <Atom type="opc_standard-In3+" sigma="0.2565788308244177" epsilon="0.09715545064"/>
+    <Atom type="opc_standard-Tl3+" sigma="0.26424055980042466" epsilon="0.14196839183999999"/>
+    <Atom type="opc_standard-Y3+" sigma="0.2806330962142069" epsilon="0.28247819944"/>
+    <Atom type="opc_standard-La3+" sigma="0.30290556416771536" epsilon="0.5781589690400001"/>
+    <Atom type="opc_standard-Ce3+" sigma="0.30736005775841707" epsilon="0.65093680392"/>
+    <Atom type="opc_standard-Pr3+" sigma="0.30593461980939257" epsilon="0.62720034432"/>
+    <Atom type="opc_standard-Nd3+" sigma="0.29613473390984874" epsilon="0.47580293192"/>
+    <Atom type="opc_standard-Sm3+" sigma="0.2918584200627751" epsilon="0.41662062848000003"/>
+    <Atom type="opc_standard-Eu3+" sigma="0.2932838580117997" epsilon="0.43586389048"/>
+    <Atom type="opc_standard-Gd3+" sigma="0.2850875898049086" epsilon="0.33197918711999996"/>
+    <Atom type="opc_standard-Tb3+" sigma="0.2865130277539331" epsilon="0.34886028824000004"/>
+    <Atom type="opc_standard-Dy3+" sigma="0.2820585341632314" epsilon="0.29778189072"/>
+    <Atom type="opc_standard-Er3+" sigma="0.2806330962142069" epsilon="0.28247819944"/>
+    <Atom type="opc_standard-Tm3+" sigma="0.2806330962142069" epsilon="0.28247819944"/>
+    <Atom type="opc_standard-Lu3+" sigma="0.27760404057252974" epsilon="0.25163082264000003"/>
+    <Atom type="opc_standard-Hf4+" sigma="0.26032060544060714" epsilon="0.11751709584"/>
+    <Atom type="opc_standard-Zr4+" sigma="0.26513145851856496" epsilon="0.14799067408"/>
+    <Atom type="opc_standard-Ce4+" sigma="0.2998765085260382" epsilon="0.5310938643199999"/>
+    <Atom type="opc_standard-U4+" sigma="0.2998765085260382" epsilon="0.5310938643199999"/>
+    <Atom type="opc_standard-Pu4+" sigma="0.29542201493533654" epsilon="0.46563832232"/>
+    <Atom type="opc_standard-Th4+" sigma="0.3036182831422276" epsilon="0.58952354984"/>
+    <Atom type="opc-O" sigma="0.3166552081964338" epsilon="0.8903586015920001"/>
+    <Atom type="opc-H" sigma="1" epsilon="0"/>
+    <Atom type="opc-M" sigma="1" epsilon="0"/>
+  </NonbondedForce>
+</ForceField>
