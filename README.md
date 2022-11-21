@@ -23,7 +23,7 @@ For the storage of data such as inputs, topology files, and other files which ar
 When conducting molecular dynamics there are a ton of factors one can choose with examples including choice of force field, ensemble, barostat, thermostat, system, etc. My personal opinion is that one must conduct molecular dynamics with the goal to _attempt_ to choose the optimal conditions for the purpose of the simulations. Consequently you are free to choose whichever parameters you think are well suited for the study. Below I will give my recommendations, however I encourage you to choose differently if you believe it is better.
 
 #### Stefan's MD recommendation:
-**Ensemble**: Isothermal-Isobaric (NPT) ensemble.
+**Ensemble**: Isothermal-Isobaric (NPT) ensemble.  
 **Thermostat**: [Bussi-thermostat (Stochastic velocity rescale algorithm)](http://www.sklogwiki.org/SklogWiki/index.php/Bussi-Donadio-Parrinello_thermostat) or [Langevin dynamics](https://manual.gromacs.org/current/reference-manual/algorithms/stochastic-dynamics.html).  
 **Barostat**: [Parrinello-Rahman barostat](http://www.sklogwiki.org/SklogWiki/index.php/Parrinello-Rahman_barostat) or [Monte Carlo barostat](http://docs.openmm.org/7.6.0/userguide/theory/02_standard_forces.html#montecarlobarostat).  
 **System size**: ~7.500 - 10.000 water (Adjust number of ions according to approximately desired concentration).  
