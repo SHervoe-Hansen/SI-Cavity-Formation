@@ -5,6 +5,8 @@ Early theories attempting to explain the Hofmeister series focused on the chaotr
 
 To investigate what has been mentioned above the student would be using a combination of molecular simulations, statistical thermodynamics, and model creation. Supervision would be conducted by Stefan Hervø-Hansen and Prof. Nobuyuki Matubayasi. Due to Stefan being of foreign nationality, the possibility for improvement in English is also an opportunity. Finally, because of the novelty of the research, a high chance of publication will be possible.
 
+![Proposed research idea](Figures/GraphicalIdea.png "Proposed research idea")
+
 
 ## Research Milestones
 1. The local domain of salts (the region in which the ion-salt RDF is not unity) can accumulate or dissipate water per unit volume compared to water itself.
