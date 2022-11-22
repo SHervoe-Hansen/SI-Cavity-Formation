@@ -13,7 +13,7 @@ See `PROJECT_DESCRIPTION.md` for a more detailed account on the background behin
 6. [ ] Illustrate how the difference in solvation free energy of the hydrophobic solute between water and salt solutions is varying with solute size. 
 
 ### Hardware and software
-Since we are conducting molecular dynamics (MD) simulations, we benefit substantially from GPU acceleration. Because the majority of the group is conducting MD simulations with parallel computing on CPUs, the GPUs on our local machines are mainly idling thus leaving the possibility to use op to 5(7) GPUs. These can be found on nu-g01, nu-g02, kappa-g01, and (iris01).
+Since we are conducting molecular dynamics (MD) simulations, we benefit substantially from GPU acceleration. Because the majority of the group is conducting MD simulations with parallel computing on CPUs, the GPUs on our local machines are mainly idling thus leaving the possibility to use 5-7 GPUs. These can be found on nu-g01, nu-g02, kappa-g01, and possibly iris01.
 
 Regarding software, Stefan is predominantly working with OpenMM due to the flexibility in creating custom forces, testing of new MD algorithms, and so on. However, this project can with ease be conducted using the GROMACS software package. For trajectory analysis and visualization of data Stefan highly recommends the usage of Python and Jupyter notebooks. This mainly serves the purpose of having easy transparency of the simulations and analysis conducted, but more important it also serves the purpose of improving your programming skills!
 
