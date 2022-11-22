@@ -28,7 +28,7 @@ When conducting molecular dynamics there are a ton of factors one can choose wit
 **Barostat**: [Parrinello-Rahman barostat](http://www.sklogwiki.org/SklogWiki/index.php/Parrinello-Rahman_barostat) or [Monte Carlo barostat](http://docs.openmm.org/7.6.0/userguide/theory/02_standard_forces.html#montecarlobarostat).  
 **System size**: ~7.500 - 10.000 water (Adjust number of ions according to approximately desired concentration).  
 **Integrator**: 2 fs time step, constraints on water and all bonds involving hydrogen.  
-**Length of simulation**: Preliminary run for pure water (10 ns), salt + water (100 ns). Run longer if the primary observables (slvfe, rdfs, etc.) 
+**Length of simulation**: Preliminary run for pure water (10 ns), salt + water (100 ns). Run longer if the primary observables (slvfe, rdfs, etc.)  are not converged.  
 **Force fields**: Water - [OPC](https://doi.org/10.1021/jz501780a), Ions: [Li & Merz parameters](10.1021/ct400146w).  
 **Electrostatic interactions**: PME (4th-6th order B-spline with an Ewald tolerance ~5e-4).  
 **Lennard Jones interactions**: [LJPME](https://manual.gromacs.org/documentation/2019/reference-manual/functions/long-range-vdw.html), usage of shifting functions, or you may follow the ermod tutorial.  
