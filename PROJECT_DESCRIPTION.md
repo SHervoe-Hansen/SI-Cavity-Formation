@@ -22,5 +22,4 @@ To investigate what has been mentioned above the student would be using a combin
 4. K. A. Dill, T. M. Truskett, V. Vlachy, B. Hribar-Lee, Modeling Water, the Hydrophobic Effect, and Ion Solvation. Annu. Rev. Biophys. Biomol. Struct. 34, 173–199 (2005).
 5. B. Hribar, N. T. Southall, V. Vlachy, K. A. Dill, How Ions Affect the Structure of Water. J. Am. Chem. Soc. 124, 12302–12311 (2002).
 6. A. Burant, G. V. Lowry, A. K. Karamalidis, Measurement of Setschenow constants for six hydrophobic compounds in simulated brines and use in predictive modeling for oil and gas systems. Chemosphere 144, 2247–2256 (2016).
-
-
+7. Literature by Prof. Giuseppe Graziano
