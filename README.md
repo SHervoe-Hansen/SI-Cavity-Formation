@@ -33,7 +33,7 @@ When conducting molecular dynamics there are a ton of factors one can choose wit
 **Electrostatic interactions**: PME (6th order B-spline with an Ewald tolerance 1e-5).  
 **Lennard Jones interactions**: Usage of shifting functions, or you may follow the ermod tutorial.  
 **Hydrophobic solute**: Hydrocarbons (methane to n-hexane).  
-**Analysis**: Solvation Free Energy, Average Pair Energy, Energy-domain decomposition (see Hervø-Hansen *et al.*, PCCP, 2022), RDF (solute-water, solute-ions, water-ions)
+**Analysis**: Solvation Free Energy, Average Pair Energy, Energy-domain decomposition (see Hervø-Hansen *et al.*, PCCP, 2022), RDF (solute-water, solute-ions, water-ions).
 
 ### License
 This work is licensed under a
