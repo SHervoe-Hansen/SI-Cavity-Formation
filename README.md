@@ -1,9 +1,12 @@
 [![CC BY 4.0][cc-by-shield]][cc-by]
 
-# On The Free Energy Penalty of Cavity Formation In Salt Solutions: Rethinking the Terms “Kosmotropic” and “Chaotropic”. 
+# On The Free Energy Penalty of Cavity Formation In Salt Solutions: Rethinking the Terms “Kosmotropic” and “Chaotropic”.
+
+## Introduction
+See `PROJECT_DESCRIPTION.md` for a more detailed account on the background behind the research project.  
+See `Analytical_theory.md` for the text regarding our analytical model.
 
 ## Research plan
-See `PROJECT_DESCRIPTION.md` for a more detailed account on the background behind the research project.
 ### Computations and analysis
 1. [ ] Conduct MD simulations of pure water using the OPC model (will serve as our reference state for ermod later)
 2. [ ] Conduct MD simulations of salt solutions (≤ 1 M) (will serve as our reference state for ermod later)
