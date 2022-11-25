@@ -29,7 +29,7 @@ When conducting molecular dynamics there are a ton of factors one can choose wit
 **System size**: ~7.500 - 10.000 water (Adjust number of ions according to approximately desired concentration).  
 **Integrator**: 2 fs time step, constraints on water and all bonds involving hydrogen.  
 **Length of simulation**: Preliminary run for pure water (10 ns), salt + water (100 ns). Run longer if the primary observables (slvfe, rdfs, etc.)  are not converged.  
-**Force fields**: Water - [OPC](https://doi.org/10.1021/jz501780a), Ions: [Sengupta & Merz parameters](https://doi.org/10.1021/acs.jcim.0c01390).  
+**Force fields**: Water - [OPC](https://doi.org/10.1021/jz501780a), Ions - [Sengupta & Merz parameters](https://doi.org/10.1021/acs.jcim.0c01390).  
 **Electrostatic interactions**: PME (6th order B-spline with an Ewald tolerance 1e-5).  
 **Lennard Jones interactions**: Usage of shifting functions, or you may follow the ermod tutorial.  
 **Hydrophobic solute**: Hydrocarbons (methane to n-hexane).  
