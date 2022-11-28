@@ -11,7 +11,7 @@ See `Analytical_theory.md` for the text regarding our analytical model.
 1. [ ] Conduct MD simulations of pure water using the OPC model (will serve as our reference state for ermod later)
 2. [ ] Conduct MD simulations of salt solutions (≤ 1 M) (will serve as our reference state for ermod later)
 3. [ ] Analyze the simulations of the salt solutions and pure water in terms of radial distribution function (RDF) between the ions-water and water-water and establish the "local domain" in which water is perturbed by the ions.
-4. [ ] Conduct MD simulations of a hydrophobic solute (start with an LJ sphere) with varying sizes (sigma) ranging from below and above the "local domain cutoff" previously established. In case of LJ sphere keep epsilon fixed. The simulations should be conducted in both pure water and salt solutions.
+4. [ ] Conduct MD simulations of a hydrophobic solute (hydrocarbon) with varying sizes. The simulations should be conducted in both pure water and salt solutions.
 5. [ ] Determine the solvation free energy of the hydrophobic solute in water and salt solutions using ERMOD.
 6. [ ] Illustrate how the difference in solvation free energy of the hydrophobic solute between water and salt solutions is varying with solute size. 
 
