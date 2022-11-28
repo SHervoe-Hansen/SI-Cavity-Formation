@@ -1,0 +1,133 @@
+;   Created by: Stefan Hervø-Hansen
+;   DateGenerated: 2022-11-29
+;   ParmEd:       , VERSION 3.4.3
+;   Reference: A. Sengupta, Z. Li, L. F. Song, P. Li, K. M. Merz Jr., Parameterization of Monovalent Ions for the OPC3, OPC, TIP3P-FB, and TIP4P-FB Water Models. J. Chem. Inf. Model. 61, 869–880 (2021).
+;
+
+[ defaults ]
+; nbfunc        comb-rule       gen-pairs       fudgeLJ fudgeQQ
+1               2               yes             1            1           
+
+[ atomtypes ]
+; name    at.num    mass    charge ptype  sigma      epsilon
+Na            11  22.989769  0.00000000  A        0.25658      0.0971555
+Ag            47 107.868220  0.00000000  A        0.26531      0.1492163
+Br            35  79.904100  0.00000000  A        0.41195      2.7048107
+Cl            17  35.453200  0.00000000  A        0.38309      2.1820915
+Cs            55 132.905452  0.00000000  A        0.35458      1.5913927
+Cu            29  63.546300  0.00000000  A        0.21399      0.0046986
+F              9  18.998403  0.00000000  A        0.30647      0.6360531
+I             53 126.904473  0.00000000  A        0.45846      3.3280127
+K             19  39.098310  0.00000000  A        0.30968      0.6903724
+Li             3   6.941200  0.00000000  A        0.23252      0.0218984
+Rb            37  85.467830  0.00000000  A        0.32108      0.8985523
+Tl            81 204.383320  0.00000000  A        0.32874       1.049263
+
+
+[ moleculetype ]
+; Name            nrexcl
+NA          3
+
+[ atoms ]
+;   nr       type  resnr residue  atom   cgnr    charge       mass  typeB    chargeB      massB
+    1        Na       1     NA     NA      1 1.00000000  22.989769   ; qtot 1.000000
+
+
+[ moleculetype ]
+; Name            nrexcl
+AG          3
+
+[ atoms ]
+;   nr       type  resnr residue  atom   cgnr    charge       mass  typeB    chargeB      massB
+    1        Ag       1     AG     AG      1 1.00000000 107.868220   ; qtot 1.000000
+
+
+[ moleculetype ]
+; Name            nrexcl
+BR          3
+
+[ atoms ]
+;   nr       type  resnr residue  atom   cgnr    charge       mass  typeB    chargeB      massB
+    1        Br       1     BR     BR      1 -1.00000000  79.904100   ; qtot -1.000000
+
+
+[ moleculetype ]
+; Name            nrexcl
+CL          3
+
+[ atoms ]
+;   nr       type  resnr residue  atom   cgnr    charge       mass  typeB    chargeB      massB
+    1        Cl       1     CL     CL      1 -1.00000000  35.453200   ; qtot -1.000000
+
+
+[ moleculetype ]
+; Name            nrexcl
+CS          3
+
+[ atoms ]
+;   nr       type  resnr residue  atom   cgnr    charge       mass  typeB    chargeB      massB
+    1        Cs       1     CS     CS      1 1.00000000 132.905452   ; qtot 1.000000
+
+
+[ moleculetype ]
+; Name            nrexcl
+CU          3
+
+[ atoms ]
+;   nr       type  resnr residue  atom   cgnr    charge       mass  typeB    chargeB      massB
+    1        Cu       1     CU    CU1      1 1.00000000  63.546300   ; qtot 1.000000
+
+
+[ moleculetype ]
+; Name            nrexcl
+F          3
+
+[ atoms ]
+;   nr       type  resnr residue  atom   cgnr    charge       mass  typeB    chargeB      massB
+    1         F       1      F      F      1 -1.00000000  18.998403   ; qtot -1.000000
+
+
+[ moleculetype ]
+; Name            nrexcl
+I          3
+
+[ atoms ]
+;   nr       type  resnr residue  atom   cgnr    charge       mass  typeB    chargeB      massB
+    1         I       1      I    IOD      1 -1.00000000 126.904473   ; qtot -1.000000
+
+
+[ moleculetype ]
+; Name            nrexcl
+K          3
+
+[ atoms ]
+;   nr       type  resnr residue  atom   cgnr    charge       mass  typeB    chargeB      massB
+    1         K       1      K      K      1 1.00000000  39.098310   ; qtot 1.000000
+
+
+[ moleculetype ]
+; Name            nrexcl
+LI          3
+
+[ atoms ]
+;   nr       type  resnr residue  atom   cgnr    charge       mass  typeB    chargeB      massB
+    1        Li       1     LI     LI      1 1.00000000   6.941200   ; qtot 1.000000
+
+
+[ moleculetype ]
+; Name            nrexcl
+RB          3
+
+[ atoms ]
+;   nr       type  resnr residue  atom   cgnr    charge       mass  typeB    chargeB      massB
+    1        Rb       1     RB     RB      1 1.00000000  85.467830   ; qtot 1.000000
+
+
+[ moleculetype ]
+; Name            nrexcl
+TL          3
+
+[ atoms ]
+;   nr       type  resnr residue  atom   cgnr    charge       mass  typeB    chargeB      massB
+    1        Tl       1     TL     TL      1 1.00000000 204.383320   ; qtot 1.000000
+
