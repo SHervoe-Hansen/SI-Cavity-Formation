@@ -1,0 +1,73 @@
+<ForceField>
+  <Info>
+    <DateGenerated>2022-11-09</DateGenerated>
+    <Reference>A. Sengupta, Z. Li, L. F. Song, P. Li, K. M. Merz Jr., Parameterization of Monovalent Ions for the OPC3, OPC, TIP3P-FB, and TIP4P-FB Water Models. J. Chem. Inf. Model. 61, 869–880 (2021).</Reference>
+  </Info>
+  <AtomTypes>
+    <Type element="Li" name="opc_standard-Li+" class="opc_standard-Li+" mass="6.94"/>
+    <Type element="Na" name="opc_standard-Na+" class="opc_standard-Na+" mass="22.99"/>
+    <Type element="K" name="opc_standard-K+" class="opc_standard-K+" mass="39.1"/>
+    <Type element="Rb" name="opc_standard-Rb+" class="opc_standard-Rb+" mass="85.47"/>
+    <Type element="Cs" name="opc_standard-Cs+" class="opc_standard-Cs+" mass="132.91"/>
+    <Type element="Tl" name="opc_standard-Tl+" class="opc_standard-Tl+" mass="204.38"/>
+    <Type element="Cu" name="opc_standard-Cu+" class="opc_standard-Cu+" mass="63.55"/>
+    <Type element="Ag" name="opc_standard-Ag+" class="opc_standard-Ag+" mass="107.87"/>
+    <Type element="F" name="opc_standard-F-" class="opc_standard-F-" mass="19.0"/>
+    <Type element="Cl" name="opc_standard-Cl-" class="opc_standard-Cl-" mass="35.45"/>
+    <Type element="Br" name="opc_standard-Br-" class="opc_standard-Br-" mass="79.9"/>
+    <Type element="I" name="opc_standard-I-" class="opc_standard-I-" mass="126.9"/>
+  </AtomTypes>
+  <Residues>
+    <Residue name="AG">
+      <Atom name="AG" type="opc_standard-Ag+" charge="1.0"/>
+    </Residue>
+    <Residue name="BR">
+      <Atom name="BR" type="opc_standard-Br-" charge="-1.0"/>
+    </Residue>
+    <Residue name="CL">
+      <Atom name="CL" type="opc_standard-Cl-" charge="-1.0"/>
+    </Residue>
+    <Residue name="CS">
+      <Atom name="CS" type="opc_standard-Cs+" charge="1.0"/>
+    </Residue>
+    <Residue name="CU1">
+      <Atom name="CU" type="opc_standard-Cu+" charge="1.0"/>
+    </Residue>
+    <Residue name="F">
+      <Atom name="F" type="opc_standard-F-" charge="-1.0"/>
+    </Residue>
+    <Residue name="IOD">
+      <Atom name="I" type="opc_standard-I-" charge="-1.0"/>
+    </Residue>
+    <Residue name="K">
+      <Atom name="K" type="opc_standard-K+" charge="1.0"/>
+    </Residue>
+    <Residue name="LI">
+      <Atom name="LI" type="opc_standard-Li+" charge="1.0"/>
+    </Residue>
+    <Residue name="NA">
+      <Atom name="NA" type="opc_standard-Na+" charge="1.0"/>
+    </Residue>
+    <Residue name="RB">
+      <Atom name="RB" type="opc_standard-Rb+" charge="1.0"/>
+    </Residue>
+    <Residue name="TL">
+      <Atom name="TL" type="opc_standard-Tl+" charge="1.0"/>
+    </Residue>
+  </Residues>
+  <NonbondedForce coulomb14scale="0.8333333333333334" lj14scale="0.5">
+    <UseAttributeFromResidue name="charge"/>
+    <Atom type="opc_standard-Li+" sigma="0.23252" epsilon="0.0218984"/>
+    <Atom type="opc_standard-Na+" sigma="0.25658" epsilon="0.0971555"/>
+    <Atom type="opc_standard-K+"  sigma="0.30968" epsilon="0.6903724"/>
+    <Atom type="opc_standard-Rb+" sigma="0.32108" epsilon="0.8985523"/>
+    <Atom type="opc_standard-Cs+" sigma="0.35458" epsilon="1.5913927"/>
+    <Atom type="opc_standard-Tl+" sigma="0.32874" epsilon="1.0492630"/>
+    <Atom type="opc_standard-Cu+" sigma="0.21399" epsilon="0.0046986"/>
+    <Atom type="opc_standard-Ag+" sigma="0.26531" epsilon="0.1492163"/>
+    <Atom type="opc_standard-F-"  sigma="0.30647" epsilon="0.6360531"/>
+    <Atom type="opc_standard-Cl-" sigma="0.38309" epsilon="2.1820915"/>
+    <Atom type="opc_standard-Br-" sigma="0.41195" epsilon="2.7048107"/>
+    <Atom type="opc_standard-I-"  sigma="0.45846" epsilon="3.3280127"/>
+  </NonbondedForce>
+</ForceField>
