@@ -10,13 +10,13 @@
   </AtomTypes>
   <Residues>
     <Residue name="HOH">
-      <Atom name="O" type="opc-O" charge="0"/>
-      <Atom name="H1" type="opc-H" charge="0.679142"/>
-      <Atom name="H2" type="opc-H" charge="0.679142"/>
-      <Atom name="M" type="opc-M" charge="-1.358284"/>
-      <VirtualSite type="average3" siteName="M" atomName1="O" atomName2="H1" atomName3="H2" weight1="0.70455878106" weight2="0.14772060947" weight3="0.14772060947"/>
-      <Bond atomName1="O" atomName2="H1"/>
-      <Bond atomName1="O" atomName2="H2"/>
+      <Atom name="OW" type="opc-O" charge="0"/>
+      <Atom name="HW1" type="opc-H" charge="0.679142"/>
+      <Atom name="HW2" type="opc-H" charge="0.679142"/>
+      <Atom name="MW" type="opc-M" charge="-1.358284"/>
+      <VirtualSite type="average3" siteName="MW" atomName1="OW" atomName2="HW1" atomName3="HW2" weight1="0.70455878106" weight2="0.14772060947" weight3="0.14772060947"/>
+      <Bond atomName1="OW" atomName2="HW1"/>
+      <Bond atomName1="OW" atomName2="HW2"/>
     </Residue>
   </Residues>
   <HarmonicBondForce>
