@@ -4,8 +4,6 @@ channels:
   - defaults
 dependencies:
   - python=3.7
-  - openmm=7.7
-  - openmmtools
   - parmed
   - mdtraj
   - numpy
@@ -13,3 +11,5 @@ dependencies:
   - notebook
   - matplotlib
   - cython
+  - openmm
+  - openff-toolkit
