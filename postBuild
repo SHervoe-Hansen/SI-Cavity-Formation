@@ -1,3 +1,0 @@
-git clone https://github.com/ajd98/molecularvolume
-cd molecularvolume/src
-make install
