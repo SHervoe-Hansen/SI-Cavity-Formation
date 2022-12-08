@@ -4,10 +4,6 @@
 ;   Reference: A. Sengupta, Z. Li, L. F. Song, P. Li, K. M. Merz Jr., Parameterization of Monovalent Ions for the OPC3, OPC, TIP3P-FB, and TIP4P-FB Water Models. J. Chem. Inf. Model. 61, 869–880 (2021).
 ;
 
-[ defaults ]
-; nbfunc        comb-rule       gen-pairs       fudgeLJ fudgeQQ
-1               2               yes             1            1           
-
 [ atomtypes ]
 ; name    at.num    mass    charge ptype  sigma      epsilon
 Na            11  22.989769  0.00000000  A        0.25658      0.0971555
