@@ -1,0 +1,52 @@
+; run control
+integrator 	= sd
+dt 		= 0.002 ; 2 fs
+nsteps 		= 500000 ; 1000 ps
+
+; output control
+nstxout 	= 100
+nstvout 	= 100
+nstenergy 	= 100
+nstlog 		= 100
+nstxout_compressed  = 500
+
+; neighbor searching
+ns_type 	= grid
+nstlist 	= 10
+rlist 		= 1.55
+pbc 		= xyz
+
+; VdW
+vdwtype 	= Switch
+rvdw_switch 	= 1.0
+rvdw 		= 1.2
+DispCorr 	= no
+
+; coulomb
+coulombtype 	= PME
+ewald_rtol 	= 1e-05
+rcoulomb 	= 1.2
+pme_order 	= 6
+fourier_nx 	= 32
+fourier_ny 	= 32
+fourier_nz 	= 32
+
+; temp coupling
+tc-grps     = system
+tau_t       = 2
+ref_t       = 300
+
+; press coupling
+pcoupl 		= Parrinello-Rahman
+pcoupltype 	= isotropic
+tau_p 		= 2.0
+ref_p 		= 1
+compressibility = 4.50e-5
+
+; bonds
+continuation 	= yes
+constraints 	= all-bonds
+
+; velocity generation
+gen_vel 	= no 
+gen_temp 	= 300
