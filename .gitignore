@@ -2,8 +2,11 @@
 # Edit at https://www.toptal.com/developers/gitignore?templates=jupyternotebooks,python,vim,emacs,linux,macos
 
 ### Project specific files ###
-molecularvolume/*
+#molecularvolume/*
 *.xtc
+*.trr
+md/*
+
 
 ### Emacs ###
 # -*- mode: gitignore; -*-
