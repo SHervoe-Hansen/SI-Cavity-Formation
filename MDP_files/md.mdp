@@ -4,15 +4,16 @@ dt 		    = 0.002 ; 2 fs
 nsteps 		= 50000000 ; 100 ns
 
 ; output control
-nstxout 	= 100
-nstvout 	= 100
-nstenergy 	= 100
+;nstxout 	= 100
+;nstvout 	= 100
+;nstenergy 	= 100
 nstlog 		= 100
 nstxout_compressed  = 500
 
 ; neighbor searching
+cutoff_scheme   = Verlet
+nstlist     = 30
 ns_type 	= grid
-nstlist 	= 10
 rlist 		= 1.55
 pbc 		= xyz
 
