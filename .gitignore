@@ -6,7 +6,8 @@ molecularvolume/*
 *.trr
 *.xtc
 md/*
-
+run.sh
+ermod.sh
 
 ### Emacs ###
 # -*- mode: gitignore; -*-
