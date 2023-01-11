@@ -8,6 +8,8 @@ molecularvolume/*
 md/*
 run.sh
 ermod.sh
+refs/*
+soln/*
 
 ### Emacs ###
 # -*- mode: gitignore; -*-
