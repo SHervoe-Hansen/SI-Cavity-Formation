@@ -12,6 +12,7 @@ refs
 soln
 *.sh.e*
 *.sh.o*
+test
 
 ### Emacs ###
 # -*- mode: gitignore; -*-
