@@ -13,6 +13,8 @@ soln
 *.sh.e*
 *.sh.o*
 test
+cumsfe*
+script*
 
 ### Emacs ###
 # -*- mode: gitignore; -*-
