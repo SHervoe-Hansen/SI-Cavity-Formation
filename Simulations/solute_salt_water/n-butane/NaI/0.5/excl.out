@@ -1,0 +1,10 @@
+#         Total    Component-1    Component-2    Component-3
+
+### [-infty, Ec] ###
+     -8.7961405      0.1424752     -0.4504875     -8.4881282
+
+### [-infty, infty]  ###
+      2.5985900      0.1312900     -0.2453400      2.7126400
+
+### Excluded volume contrib. ([-infty, infty] - [-infty, Ec]) ###
+     11.3947305     -0.0111852      0.2051475     11.2007682
