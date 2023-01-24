@@ -1,0 +1,24 @@
+; run control
+define 		= -DFLEXIBLE
+integrator 	= steep
+dt		= 0.002
+nsteps 		= 50000 ; 100ps
+nstlist 	= 1 ; steps
+
+; em
+emtol 		= 100.0 ; kJ/mol/nm
+emstep 		= 0.01 ; nm
+
+; Verlet list
+ns_type 	= grid
+rlist 		= 1.55 ; nm
+pbc 		= xyz
+
+; coulomb
+coulombtype 	= PME
+rcoulomb 	= 1.35 ; nm
+
+; VdW
+vdwtype 	= Switch
+rvdw_switch 	= 1.0 ; nm
+rvdw 		= 1.35 ; nm

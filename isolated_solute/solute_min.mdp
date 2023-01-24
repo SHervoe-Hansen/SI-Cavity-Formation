@@ -1,0 +1,48 @@
+; Preprocessing
+title      = minimization for isolated solute
+
+; run control
+integrator 	= steep
+dt          = 0.002 ; 2 fs
+nsteps 		= 25000000 ; 50ns
+comm-mode   = Linear
+nstcomm     = 1
+;comm-grps   = BUT
+
+;COM pulling
+pull        = no
+
+; Output control
+nstxtcout   = 50
+
+; Verlet list
+nstlist     = 0 ; steps
+ns_type 	= simple
+rlist 		= 999 ; nm
+pbc 		= no
+cutoff-scheme   = group
+
+; coulomb
+coulombtype = Cut-off
+rcoulomb 	= 999 ; nm
+
+; VdW
+vdwtype 	= Switch
+rvdw 		= 1.35 ; nm
+rvdw_switch = 1.0
+DispCorr    = no
+
+; Temperature coupling
+tcoupl      = nose-hoover
+tc_grps     = System
+tau_t       = 1.0
+ref_t       = 300
+
+; Pressure coupling
+pcoupl      = no
+
+; Velocity generation
+gen_vel     = no
+
+; Bonds
+constraints = all-bonds

@@ -1,0 +1,47 @@
+; preprocessing
+title       = production run for isolated solute
+
+; run control
+integrator 	= sd
+dt 		= 0.002 ; 2 fs
+nsteps 		= 25000000 ; 50 ns
+comm-mode   	= Linear
+nstcomm     	= 1
+
+;COM pulling
+pull        = no
+
+; output control
+nstxout-compressed 	= 500
+
+; neighbor searching
+cutoff-scheme   = group
+ns_type 	= simple
+nstlist 	= 0
+rlist 		= 999
+pbc 		= no
+
+; VdW
+vdwtype 	= Cut-off
+;rvdw_switch 	= 1.0
+rvdw 		= 999
+DispCorr 	= no
+
+; coulomb
+coulombtype = Cut-off
+rcoulomb 	= 999
+
+; temp coupling
+;tcoupl      = nose-hoover
+tc-grps 	= system
+tau_t 		= 1.0
+ref_t 		= 300
+
+; press coupling
+pcoupl 		= no
+
+; bonds
+constraints 	= all-bonds
+
+; velocity generation
+gen_vel 	= no 
