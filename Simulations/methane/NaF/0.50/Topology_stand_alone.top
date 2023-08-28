@@ -1,0 +1,133 @@
+;
+;   File Topology_stand_alone.top  was generated
+;   By user: stefan (1238)
+;   On host: avalon
+;   At date: Tue. March  2 23:01:17 2023
+;
+;   This is a standalone topology file
+;
+;   Created by:
+;   ParmEd:       ipykernel_launcher.py, VERSION 3.4.4
+;   Executable:   ipykernel_launcher.py
+;   Library dir:  /usr/local/gromacs/share/gromacs/top
+;   Command line:
+;     /home/stefan/miniconda3/lib/python3.10/site-packages/ipykernel_launcher.py -f /home/stefan/.local/share/jupyter/runtime/kernel-f44c6ef7-81b8-4aca-acfb-657b096a198d.json
+;
+
+[ defaults ]
+; nbfunc        comb-rule       gen-pairs       fudgeLJ fudgeQQ
+1               2               no              1            0.83333333  
+
+[ atomtypes ]
+; name    bond_type mass    charge ptype  sigma      epsilon
+C1      C1        12.010780  0.00000000  A     0.33795318     0.45538912
+H1      H1         1.007947  0.00000000  A     0.26445434    0.066021356
+Na      Na        22.989769  0.00000000  A        0.25658      0.0971555
+F       F         18.998403  0.00000000  A        0.30647      0.6360531
+OW      OW         0.000000  0.00000000  A       0.316655      0.8903586
+HW      HW         0.000000  0.00000000  A              0              0
+MW      MW         0.000000  0.00000000  A              0              0
+
+
+[ moleculetype ]
+; Name            nrexcl
+MTH          3
+
+[ atoms ]
+;   nr       type  resnr residue  atom   cgnr    charge       mass  typeB    chargeB      massB
+; residue    1 MTH rtp MTH q 0.0
+    1         C1      1    MTH    C00      1 -0.10840000  12.010780   ; qtot -0.108400
+    2         H1      1    MTH    H01      2 0.02710000   1.007947   ; qtot -0.081300
+    3         H1      1    MTH    H02      3 0.02710000   1.007947   ; qtot -0.054200
+    4         H1      1    MTH    H03      4 0.02710000   1.007947   ; qtot -0.027100
+    5         H1      1    MTH    H04      5 0.02710000   1.007947   ; qtot 0.000000
+
+[ bonds ]
+;    ai     aj funct         c0         c1         c2         c3
+      1      2     1   0.10939 309655.084322
+      1      3     1   0.10939 309655.084322
+      1      4     1   0.10939 309655.084322
+      1      5     1   0.10939 309655.084322
+
+[ angles ]
+;    ai     aj     ak funct         c0         c1         c2         c3
+      2      1      3     1   115.6031000 408.161690
+      2      1      4     1   115.6031000 408.161690
+      2      1      5     1   115.6031000 408.161690
+      3      1      4     1   115.6031000 408.161690
+      3      1      5     1   115.6031000 408.161690
+      4      1      5     1   115.6031000 408.161690
+
+
+[ moleculetype ]
+; Name            nrexcl
+NA          3
+
+[ atoms ]
+;   nr       type  resnr residue  atom   cgnr    charge       mass  typeB    chargeB      massB
+; residue    1 NA rtp NA q 1.0
+    1         Na      1     NA     NA      1 1.00000000  22.989769   ; qtot 1.000000
+
+
+[ moleculetype ]
+; Name            nrexcl
+F          3
+
+[ atoms ]
+;   nr       type  resnr residue  atom   cgnr    charge       mass  typeB    chargeB      massB
+; residue    1 F rtp F q -1.0
+    1          F      1      F      F      1 -1.00000000  18.998403   ; qtot -1.000000
+
+
+[ moleculetype ]
+; Name            nrexcl
+HOH          3
+
+[ atoms ]
+;   nr       type  resnr residue  atom   cgnr    charge       mass  typeB    chargeB      massB
+; residue    1 HOH rtp HOH q 0.0
+    1         OW      1    HOH     OW      1 0.00000000  16.000000   ; qtot 0.000000
+    2         HW      1    HOH    HW1      2 0.67914000   1.008000   ; qtot 0.679140
+    3         HW      1    HOH    HW2      3 0.67914000   1.008000   ; qtot 1.358280
+    4         MW      1    HOH     MW      4 -1.35828000   0.000000   ; qtot 0.000000
+
+#ifdef FLEXIBLE
+
+[ bonds ]
+;    ai     aj funct         c0         c1         c2         c3
+      1      2     1   0.08724 502416.000000
+      1      3     1   0.08724 502416.000000
+
+[ angles ]
+;    ai     aj     ak funct         c0         c1         c2         c3
+      2      1      3     1   103.6000000 628.020000
+
+
+#else
+
+[ settles ]
+; i     funct   doh     dhh
+1     1   0.08724000   0.13711631
+
+#endif
+
+[ virtual_sites3 ]
+; Site  from                   funct
+4     1    2    3    1      0.147722  0.147722
+
+[ exclusions ]
+1  2  3  4
+2  1  4  3
+3  1  4  2
+4  1  2  3
+
+[ system ]
+; Name
+Generic title
+
+[ molecules ]
+; Compound       #mols
+MTH                  1
+NA                  90
+F                   90
+HOH              10000
