@@ -1,0 +1,17 @@
+
+; Include forcefield files
+#include "/data4/stefan/Cavity-Formation/Force_fields/ions.itp"
+#include "/data4/stefan/Cavity-Formation/Force_fields/OPC.itp"
+
+[ defaults ]
+; nbfunc        comb-rule       gen-pairs       fudgeLJ fudgeQQ
+1               2               no              1            0.83333333
+
+[ system ]
+Salt water
+
+[ molecules ]
+;molecule name   nr.
+NA          135
+F          135
+HOH          10000
