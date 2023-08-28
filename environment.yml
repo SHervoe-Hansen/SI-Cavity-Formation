@@ -3,13 +3,12 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - python=3.7
-  - parmed
-  - mdtraj
-  - numpy
-  - scipy
-  - notebook
-  - matplotlib
-  - cython
-  - openmm
-  - openff-toolkit
+  - python=3.10
+  - parmed=3.4
+  - mdtraj=1.9
+  - numpy=1.21
+  - scipy=1.8
+  - notebook=6.5
+  - matplotlib=3.6
+  - openmm=8.0
+  - openff-toolkit=0.10
