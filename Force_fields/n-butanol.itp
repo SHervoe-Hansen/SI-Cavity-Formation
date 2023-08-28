@@ -2,16 +2,16 @@
 ;   File Force_fields/temporary.top  was generated
 ;   By user: stefan (1238)
 ;   On host: avalon
-;   At date: Tue. December  2 18:01:11 2022
+;   At date: Mon. February  1 16:23:57 2023
 ;
 ;   This is a standalone topology file
 ;
 ;   Created by:
-;   ParmEd:       ipykernel_launcher.py, VERSION 3.4.3
+;   ParmEd:       ipykernel_launcher.py, VERSION 3.4.4
 ;   Executable:   ipykernel_launcher.py
 ;   Library dir:  /usr/local/gromacs/share/gromacs/top
 ;   Command line:
-;     /home/stefan/miniconda3/envs/CavityFormation/lib/python3.7/site-packages/ipykernel_launcher.py -f /home/stefan/.local/share/jupyter/runtime/kernel-d2800684-debf-4d9d-afa7-cddf341996e9.json
+;     /home/stefan/miniconda3/lib/python3.10/site-packages/ipykernel_launcher.py -f /home/stefan/.local/share/jupyter/runtime/kernel-ca560e30-9e10-4cb8-b01d-e280e906ef32.json
 ;
 
 
