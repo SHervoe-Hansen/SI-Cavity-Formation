@@ -1,0 +1,23 @@
+#!/bin/bash
+#PBS -N n-hexane_NaI_0.50_ermod
+#PBS -l nodes=1:ppn=36:nu             # 1 node, 36 cores, nu partition
+#PBS -e ermod.err                       # Error output
+#PBS -o ermod.out                       # Output file name
+
+source ~/.bashrc
+source ~/.bash_profile
+
+cd /data5/stefan/Cavity-Formation/Simulations/n-hexane/NaI/0.50
+
+# Pair-energy calculation in solution state
+cd soln
+mpirun -np 36 ermod
+cd ..
+
+# Pair-energy calculation in reference state
+cd refs
+mpirun -np 36 ermod
+cd ..
+
+# Calculate solvation free energy
+slvfe
