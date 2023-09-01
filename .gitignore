@@ -15,6 +15,7 @@ soln
 test
 cumsfe*
 script*
+output.dat
 
 ### Emacs ###
 # -*- mode: gitignore; -*-
