@@ -10,7 +10,7 @@
   ],
   "contributors": [
     {
-      "name": "Lin Daoyang",
+      "name": "Daoyang Lin",
       "type": "Researcher",
       "affiliation": "Division of Chemical Engineering, Graduate School of Engineering Science, Osaka University, Japan"
     },
@@ -43,7 +43,7 @@
       "scheme": "url",
       "identifier": "https://github.com/SHervoe-Hansen/Cavity-Formation",
       "relation": "isSupplementTo"
-    },
+    }
   ],
   "license": {
     "id": "cc-by-4.0"
