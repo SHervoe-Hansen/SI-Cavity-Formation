@@ -1,4 +1,4 @@
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8307991.svg)](https://doi.org/10.5281/zenodo.8307991)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8307836.svg)](https://doi.org/10.5281/zenodo.8307836)
 
 # Electronic Notebook: Free-Energy Decomposition of Salt Effects on the Solubilities of Small Molecules and the Role of Excluded-Volume Effects (Sage/OPC/Sengupta&Merz Force Field) 
 
