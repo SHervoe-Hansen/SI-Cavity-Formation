@@ -8,14 +8,20 @@ molecularvolume/*
 md/*
 run.sh
 ermod.sh
-refs
-soln
 *.sh.e*
 *.sh.o*
 test
-cumsfe*
 script*
-#output.dat
+MolPrm*
+engsln.*
+SltInfo
+flcuv.tt
+parameters_er
+weight_soln
+.extraparam
+HISTORY
+MDinfo
+refs
 
 ### Emacs ###
 # -*- mode: gitignore; -*-
